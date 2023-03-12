@@ -3,12 +3,12 @@ Welcome to the Github repository for ChatGPT NCCN Evaluation! This project conta
 
 # Project Structure
 
-This google drive folder contains the annotation/scoring guidelines, prompts, outputs from the turbo0301/ChatGPT, and the scoring records:
+This google drive folder contains the annotation/scoring guidelines, disease descriptions, prompts, outputs from the turbo0301/ChatGPT, and the scoring records:
 https://drive.google.com/drive/folders/1ClSynRGJqAcOhUkYQ9kJmcFAyqMPQWfa?usp=sharing
 
 # Annotation Process
 
-First, we generated designed four sets of prompts for breast, prostate and lung cancers among different stages. Then we ask turbo-0301 outputs for the given prompts using the ChatGPT NCCN model. 
+First, we generated designed four sets of prompt templates to query treatment recommendations. Disease descriptions, consisting of a cancer type with or without an extent of disease, were input into the prompt templates to create the final prompts (see google drive for full list of disease descriptions). Then we ask turbo-0301 outputs for the given prompts using the ChatGPT NCCN model. 
 
 After this, we asked four board-certified oncologists to evaluate the outputs based on a set of scoring guidelines. The scoring guidelines were designed to measure the quality of the responses based on factors such as relevance, coherence, and correctness.
 
