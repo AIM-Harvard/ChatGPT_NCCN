@@ -18,20 +18,19 @@ Below is a diagram showing the overall process of the ChatGPT NCCN evaluation:
 ![ChatGPT NCCN Evaluation Diagram](diagram.png)
 
 
-# Findings/hightlights:
+# Findings/highlights:
 
 One-third of ChatGPT treatment recommendations were non-concordant with NCCN guidelines, and recommendations varied based on how the question was posed. There was frequent disagreement among annotators in scores, highlighting the ambiguities and challenges of evaluating generative LLM output. Also, all 4 prompt templates yielded the same scores for only 9/26 (34.6%) diagnoses.
 
 
 # Conclusion:
 
-Although the ChatGPT model shows promise in generating quality responses to given prompts. However, there is still much work to be done in terms of improving the model's correctness and robustness. And ChatGPT was more likely to provide at least one incorrect recommendation as opposed to no recommendation, a more insidious error that is difficult for non-experts to detect. 
+There is still much work to be done in terms of improving the model's correctness and robustness. ChatGPT was most likely to provide at least one incorrect recommendation among correct recommendations, an insidious error that is difficult for non-experts to detect. 
+
 We hope this research provides insight into areas of concern and needs for future research improvements to the ChatGPT model.
 
 
 # Citation:
-```
-The utility of ChatGPT for cancer treatment information
+  `The utility of ChatGPT for cancer treatment information
 Shan Chen, Benjamin H Kann, Michael B Foote, Hugo JWL Aerts, Guergana K Savova, Raymond H Mak, Danielle S Bitterman
-medRxiv 2023.03.16.23287316; doi: https://doi.org/10.1101/2023.03.16.23287316
-```
+medRxiv 2023.03.16.23287316; doi: https://doi.org/10.1101/2023.03.16.23287316`
