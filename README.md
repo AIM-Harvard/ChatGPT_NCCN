@@ -30,6 +30,8 @@ We hope this research provides insight into areas of concern and needs for futur
 
 
 # Citation:
-  `The utility of ChatGPT for cancer treatment information
+```
+The utility of ChatGPT for cancer treatment information
 Shan Chen, Benjamin H Kann, Michael B Foote, Hugo JWL Aerts, Guergana K Savova, Raymond H Mak, Danielle S Bitterman
-medRxiv 2023.03.16.23287316; doi: https://doi.org/10.1101/2023.03.16.23287316`
+medRxiv 2023.03.16.23287316; doi: https://doi.org/10.1101/2023.03.16.23287316
+```
