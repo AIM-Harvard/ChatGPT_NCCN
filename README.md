@@ -8,7 +8,7 @@ https://drive.google.com/drive/folders/1ClSynRGJqAcOhUkYQ9kJmcFAyqMPQWfa?usp=sha
 
 # Annotation Process
 
-First, we generated designed four sets of prompt templates to query treatment recommendations. Disease descriptions, consisting of a cancer type with or without an extent of disease, were input into the prompt templates to create the final prompts (see google drive for full list of disease descriptions). Then we ask turbo-0301 outputs for the given prompts using the ChatGPT NCCN model. 
+First, we generated designed four sets of prompt templates to query treatment recommendations. Disease descriptions, consisting of a cancer type with or without an extent of disease, were input into the prompt templates to create the final prompts (see google drive for full list of disease descriptions). Then we ask turbo-0301 outputs for the given prompts using the ChatGPT NCCN model. The model was accessed via the OpenAI API. 
 
 After this, we asked four board-certified oncologists to evaluate the outputs based on a set of scoring guidelines. The scoring guidelines were designed to measure the quality of the responses based on factors such as relevance, coherence, and correctness.
 
